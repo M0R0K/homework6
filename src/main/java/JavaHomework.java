@@ -31,7 +31,7 @@ public class JavaHomework {
         System.out.println("max = " + max);
         byte n = 20;
         byte m = 7;
-        System.out.println("\nПереполнение: " + (n * m));
+        System.out.println("\nПереполнение: " + (byte) (n * m));
         double x = 6.66;
         int y = 1;
         System.out.println("\nCложение double и int: "+x + y);
